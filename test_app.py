@@ -3,7 +3,7 @@ from app import hello  # Ensure that the `app.py` is in the same directory or ac
 
 class TestApp(unittest.TestCase):
     def test_hello(self):
-        self.assertEqual(hello(), "welcome to jenkins")  # Fixed the typo here
+        self.assertEqual(hello(), "welcome to jenkins add webhook")  # Fixed the typo here
 
 if __name__ == "__main__":
     unittest.main()
