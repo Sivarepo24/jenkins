@@ -3,7 +3,8 @@ from app import hello
 
 class TestApp(unittest.TestCase):
     def test_hello(self):
-        self.assertEqaul(hello(),"welcome to jenkins")
+        self.assertEqual(hello(), "welcome to jenkins")
+
 
 
 if __name__ == "__main__":
